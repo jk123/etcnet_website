@@ -1,3 +1,7 @@
+---
+type: Journal
+---
+
 # PROJEKTIKUVAUS: Etcetera Networks -verkkosivusto
 
 **Rooli:** Toimi kokeneena Full Stack -web-kehittäjänä, UX-suunnittelijana ja sisällöntuottajana. Tehtäväsi on suunnitella rakenne ja tuottaa sisältö verkkosivustolle alla olevien tietojen perusteella.
