@@ -43,5 +43,5 @@ Luo tämän tiedon pohjalta:
 1.  **Sivustokartta (Site map)**.
 2.  **Etusivun sisältötekstit** (Copywriting), jotka hyödyntävät annettua mottoa ja arvoja.
 3.  **Tekninen toteutusehdotus** (HTML/CSS-runko), joka on kevyt, nopea ja responsiivinen.
-4.  **Lisää sivustoon whmcs palvelusivuston toiminnallisuus. Lisää whmcs login keinot sivulle. Login linkki: https://hosting.etcnet.fi/whmcs/index.php?rp=/login whmcs url https://hosting.etcnet.fi/whmcs/index.php
-5.  **Toteuta täyder nettisivut.
+4.  **Lisää sivustoon whmcs palvelusivuston toiminnallisuus. Lisää whmcs login keinot sekä hosting tuotteet: plesk, KVM ja lxc sivulle. Linkitä tuotteet whmcs:ään. Login linkki: https://hosting.etcnet.fi/whmcs/index.php?rp=/login whmcs url https://hosting.etcnet.fi/whmcs/index.php
+5.  **Toteuta täydet nettisivut.
