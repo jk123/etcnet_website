@@ -6,7 +6,7 @@ Versio: 1.0 | Päiväys: 27.11.2025
 Tämä dokumentti määrittelee tekniset vaatimukset ja toteutustavan hosting-palveluita tarjoavan verkkosivuston rakentamiseksi.
 Toteutusmalli: Single File HTML5 (SPA-tyyppinen staattinen toteutus).
 Tavoite: Maksimoida suorituskyky, siirrettävyys ja yksinkertaisuus sisällyttämällä kaikki resurssit yhteen tiedostoon.
-2. Tekninen Arkkitehtuuri
+2. Tekninen Arkkitehtuuri: 
 Sivusto rakennetaan täysin itsenäiseksi kokonaisuudeksi ("Self-Contained"). Tämä ratkaisu minimoi HTTP-pyynnöt yhteen (1) pyyntöön ja mahdollistaa sivuston helpon jakelun ilman riippuvuuksia tiedostopoluista.
  * Tiedostoformaatti: index.html.
    * Huomio: Mikäli sivusto tarjoillaan sulautetusta järjestelmästä (esim. C/C++ -ympäristö), tiedosto voidaan konvertoida merkkijonoksi (header-tiedostoon), mutta kehitys tapahtuu HTML-muodossa.
@@ -22,9 +22,9 @@ Sivusto rakennetaan täysin itsenäiseksi kokonaisuudeksi ("Self-Contained"). T�
    * Ikonit: Inline SVG -koodina suoraan HTML-rakenteessa (mahdollistaa värien muokkauksen CSS:llä).
    * Kuvat: Base64-enkoodattuna merkkijonona (Data URI) tai Inline SVG:nä.
    * Fontit: Käytetään "System Font Stack" -ratkaisua (ei ladattavia fontteja) tai base64-enkoodattua WOFF2-dataa CSS:n sisällä, jos brändifontti on välttämätön.
-3. Sivuston Rakenne ja Toiminnallisuus
+3. Sivuston Rakenne ja Toiminnallisuus: 
 Sivusto on ns. "One-Page" -kokonaisuus, jossa navigointi tapahtuu ankkurilinkkien avulla sivun sisällä pehmeästi rullaten (Smooth Scroll).
-3.1 Navigaatio ja Header
+3.1 Navigaatio ja Header: 
 Yläpalkki (Sticky/Fixed), joka sisältää logon ja linkit:
  * Etusivu (ylös)
  * Palvelut (ohjaa #palvelut -osioon)
