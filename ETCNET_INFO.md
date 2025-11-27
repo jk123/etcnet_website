@@ -40,4 +40,3 @@ Yhteystiedot:
  * Postiosoite: Elbacken 1, 21660 Nauvo
  * Puhelin: 075 326 7910
  * Kotisivu: www.etcnet.fi
-Onko tässä kaikki tiedot oikein, vai haluatko vielä hienosäätää esimerkiksi palvelukuvausten sävyä?
