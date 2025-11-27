@@ -1,6 +1,5 @@
 # ETCNET_TEMPLATE
 
-Tässä on paranneltu ja jäsennelty versio teknisestä määrittelystä. Olen selkeyttänyt kieltä ammattimaisemmaksi, lisännyt puuttuvia teknisiä yksityiskohtia ja ideoinut lisäominaisuuksia, jotka sopivat erityisesti "Single File" -ratkaisuun.
 Verkkosivuston Tekninen Määrittely: Single File -toteutus
 Versio: 1.0 | Päiväys: 27.11.2025
 1. Johdanto ja Tavoite
