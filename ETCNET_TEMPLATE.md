@@ -1,7 +1,5 @@
 # ETCNET_TEMPLATE
 
-Verkkosivuston Konseptisuunnitelma
-
 Tämä dokumentti toimii teknisenä määrittelynä verkkosivuston rakentamiseen.
 
 Toteutus: Single File HTML5 (Kaikki yhdessä tiedostossa)
