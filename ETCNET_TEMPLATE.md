@@ -42,7 +42,7 @@ Asiakashallintaan ohjaava liikenne toteutetaan selkeästi erottuvilla painikkeil
 Selkeä ja lakisääteinen alatunniste.
  * Tiedot: Yrityksen nimi, Y-tunnus (jos soveltuu), Copyright-vuosiluku (päivittyy automaattisesti JS:llä).
  * Linkit: Tietosuojaseloste, Palveluehdot (Nämä voidaan toteuttaa joko modaali-ikkunoina samassa tiedostossa tai ankkurilinkkeinä sivun alaosaan, jotta "Single File" -lupaus säilyy).
-4. Ideointi ja Lisäominaisuudet (Patantelu)
+4. Ideointi ja Lisäominaisuudet (Parantelu)
 Tässä osiossa on ideoita, joilla "Single File" -konseptista saadaan vieläkin parempi:
  * Tumma tila (Dark Mode):
    * Koska CSS on samassa tiedostossa, voidaan lisätä helppo JS-kytkin ja CSS-muuttujat (:root { --bg-color: #fff }), jotka vaihtavat teeman käyttäjän järjestelmäasetusten mukaan.
