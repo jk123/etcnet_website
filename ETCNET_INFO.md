@@ -2,7 +2,7 @@ Etcetera  edustaa valikoituja IT-infraratkaisuja, joiden tarkoitus on, mottomme 
 
 Etcetera on webhotelli sivustoillesi, pienille ja suurille sekä virusvapaa ja turvattu sähköposti. Kauttamme voit myös rekisteröidä verkkotunnuksesi.
 
-Firman konesali sijaitsee Ruotsin kristineholmissa.
+Firman konesali sijaitsee Ruotsin kristineholmissa. Konesalista myytävät tuotteet: plesk palvelut, KVM, lxc kontit, proxmox backup server. Näille tuotevalikoimat etusivulle.
 
 Etcetera  solmii ylläpitosopimuksen IT järjestelmästäsi, jolloin toimimme kuten sinun oma IT-osastosi.
 
