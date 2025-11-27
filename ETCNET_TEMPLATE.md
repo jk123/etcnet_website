@@ -1,50 +1,70 @@
 # ETCNET_TEMPLATE
 
-Tämä dokumentti toimii teknisenä määrittelynä verkkosivuston rakentamiseen.
-
-Toteutus: Single File HTML5 (Kaikki yhdessä tiedostossa)
-
-1 Sivuston Rakenne ja Toiminnallisuus
-
-Tekninen Arkkitehtuuri: Single File (Yksi tiedosto)
-Sivusto rakennetaan täysin itsenäiseksi kokonaisuudeksi yhteen tiedostoon. Tämä minimoi HTTP-pyynnöt ja varmistaa sivuston toimivuuden ilman monimutkaista palvelinpuolen riippuvuutta staattisessa jakelussa.
-
-*   Tiedoston nimi: index.html (tai kehitysvaiheessa esim. index.h jos C-header -konteksti, mutta web-käytössä index.html).
-*   HTML: HTML5-runko semanttisilla tageilla.
-*   CSS: Tyylit upotetaan suoraan tiedoston <head>-osioon <style>-tagien sisään (ei erillistä .css-tiedostoa).
-*   JavaScript: Toiminnallisuudet (navigaatio, interaktiot) upotetaan <script>-tagien sisään ennen </body>-tagin sulkemista.
-*   Grafiikka:
-    *   Ikonit: Inline SVG -koodina suoraan HTML-rakenteessa.
-    *   Kuvat: Base64-enkoodattuna merkkijonona (Data URI scheme) tai Inline SVG:nä. Ulkoisia kuvahakuja vältetään latausnopeuden ja yksityisyyden maksimoimiseksi.
-
-Navigaatiorakenne (One-Page)
-Sivuston navigaatio ohjaa pääosiin yhdellä sivulla.
-
-*   \#palvelut (Palvelut)
-*   CTA Kirjaudu sisään (Client Area)
-
-Ulkoiset linkit (WHMCS-integraatio)
-
-Kohde: Sisäänkirjautuminen (Client Area), Linkki: https://hosting.etcnet.fi/whmcs/index.php?rp=/login
-
-
-Footer (Alatunniste)
-Sivuston alatunnisteessa tulee näkyä lakisääteiset tiedot selkeästi:
-
-*   Linkit: Tietosuojaseloste, Palveluehdot.
-
-3 Seuraavat vaiheet ja Toteutus
-
-Tämä määrittely toimii ohjeena sivuston varsinaiselle toteutukselle. Etenemissuunnitelma on seuraava:
-
-*   Koodaus (Single File Implementation):
-    *   Luodaan tiedosto index.html.
-    *   Kirjoitetaan HTML5-rakenne.
-    *   Lisätään CSS (Tailwind-luokat tai custom CSS) suoraan <style>-osioon.
-    *   Muutetaan tarvittavat logot ja kuvat Base64/SVG-muotoon ja upotetaan koodiin.
-*   Tietoturva-auditointi:
-    *   Varmistetaan, että kaikki ulkoiset linkit (WHMCS) käyttävät HTTPS-protokollaa.
-    *   Tarkistetaan GDPR-vaatimusten toteutuminen (tietosuojaselosteet linkitettynä).
-*   Testaus:
-    *   Varmistetaan toimivuus ilman verkkoyhteyttä (offline-valmius staattisille osille).
-    *   Testataan mobiiliskaalautuvuus.
+Tässä on paranneltu ja jäsennelty versio teknisestä määrittelystä. Olen selkeyttänyt kieltä ammattimaisemmaksi, lisännyt puuttuvia teknisiä yksityiskohtia ja ideoinut lisäominaisuuksia, jotka sopivat erityisesti "Single File" -ratkaisuun.
+Verkkosivuston Tekninen Määrittely: Single File -toteutus
+Versio: 1.0 | Päiväys: 27.11.2025
+1. Johdanto ja Tavoite
+Tämä dokumentti määrittelee tekniset vaatimukset ja toteutustavan hosting-palveluita tarjoavan verkkosivuston rakentamiseksi.
+Toteutusmalli: Single File HTML5 (SPA-tyyppinen staattinen toteutus).
+Tavoite: Maksimoida suorituskyky, siirrettävyys ja yksinkertaisuus sisällyttämällä kaikki resurssit yhteen tiedostoon.
+2. Tekninen Arkkitehtuuri
+Sivusto rakennetaan täysin itsenäiseksi kokonaisuudeksi ("Self-Contained"). Tämä ratkaisu minimoi HTTP-pyynnöt yhteen (1) pyyntöön ja mahdollistaa sivuston helpon jakelun ilman riippuvuuksia tiedostopoluista.
+ * Tiedostoformaatti: index.html.
+   * Huomio: Mikäli sivusto tarjoillaan sulautetusta järjestelmästä (esim. C/C++ -ympäristö), tiedosto voidaan konvertoida merkkijonoksi (header-tiedostoon), mutta kehitys tapahtuu HTML-muodossa.
+ * HTML-runko: Moderni HTML5 semanttisilla tageilla (<header>, <main>, <section>, <footer>).
+ * Tyylit (CSS):
+   * Kaikki tyylit sijoitetaan <head>-osion <style>-tagien sisään.
+   * Ei ulkoisia CSS-tiedostoja (<link rel="stylesheet"> kielletty).
+   * Responsiivisuus toteutetaan CSS Media Queries -säännöillä (Mobile First -periaate).
+ * Logiikka (JavaScript):
+   * Skriptit sijoitetaan <body>-osion loppuun <script>-tagien sisään.
+   * Käytetään "Vanilla JS" -ratkaisua ilman raskaita kirjastoja (kuten jQuery tai React) latausnopeuden optimoimiseksi.
+ * Media ja Grafiikka:
+   * Ikonit: Inline SVG -koodina suoraan HTML-rakenteessa (mahdollistaa värien muokkauksen CSS:llä).
+   * Kuvat: Base64-enkoodattuna merkkijonona (Data URI) tai Inline SVG:nä.
+   * Fontit: Käytetään "System Font Stack" -ratkaisua (ei ladattavia fontteja) tai base64-enkoodattua WOFF2-dataa CSS:n sisällä, jos brändifontti on välttämätön.
+3. Sivuston Rakenne ja Toiminnallisuus
+Sivusto on ns. "One-Page" -kokonaisuus, jossa navigointi tapahtuu ankkurilinkkien avulla sivun sisällä pehmeästi rullaten (Smooth Scroll).
+3.1 Navigaatio ja Header
+Yläpalkki (Sticky/Fixed), joka sisältää logon ja linkit:
+ * Etusivu (ylös)
+ * Palvelut (ohjaa #palvelut -osioon)
+ * CTA-painike: "Kirjaudu sisään" (Client Area)
+3.2 Sisältöalueet
+ * Hero-osio: Pääotsikko, lyhyt esittelyteksti ja ensisijainen CTA.
+ * Palvelut (#palvelut): Korttimainen asettelu (Grid/Flexbox), jossa esitellään hosting-ratkaisut.
+ * Integraatiot: Linkitys WHMCS-järjestelmään.
+3.3 Ulkoiset linkit (WHMCS)
+Asiakashallintaan ohjaava liikenne toteutetaan selkeästi erottuvilla painikkeilla.
+ * Kohde: Asiakassivut (Client Area)
+ * URL: https://hosting.etcnet.fi/whmcs/index.php?rp=/login
+ * Tietoturva: Linkeissä käytettävä attribuuttia rel="noopener noreferrer".
+3.4 Footer (Alatunniste)
+Selkeä ja lakisääteinen alatunniste.
+ * Tiedot: Yrityksen nimi, Y-tunnus (jos soveltuu), Copyright-vuosiluku (päivittyy automaattisesti JS:llä).
+ * Linkit: Tietosuojaseloste, Palveluehdot (Nämä voidaan toteuttaa joko modaali-ikkunoina samassa tiedostossa tai ankkurilinkkeinä sivun alaosaan, jotta "Single File" -lupaus säilyy).
+4. Ideointi ja Lisäominaisuudet (Patantelu)
+Tässä osiossa on ideoita, joilla "Single File" -konseptista saadaan vieläkin parempi:
+ * Tumma tila (Dark Mode):
+   * Koska CSS on samassa tiedostossa, voidaan lisätä helppo JS-kytkin ja CSS-muuttujat (:root { --bg-color: #fff }), jotka vaihtavat teeman käyttäjän järjestelmäasetusten mukaan.
+ * Favicon:
+   * Myös selaimen välilehden ikoni (favicon) voidaan upottaa Base64-muodossa <link rel="icon" href="data:image/x-icon;base64,..." />, jolloin yhtäkään ulkoista tiedostopyyntöä ei tapahdu.
+ * Offline-tila:
+   * Koska kaikki on yhdessä tiedostossa, sivusto toimii täydellisesti, vaikka käyttäjä tallentaisi sen koneelleen ja avaisi ilman nettiyhteyttä.
+ * SEO (Hakukoneoptimointi):
+   * Vaikka kyseessä on yksi tiedosto, <head>-osioon tulee lisätä Open Graph -tagit (OG) ja Meta Description, jotta linkki näyttää hyvältä jaettaessa sosiaalisessa mediassa.
+5. Toteutussuunnitelma
+Vaihe 1: Kehitys (Single File Implementation)
+ * Luodaan index.html.
+ * Rakennetaan DOM-rakenne (HTML).
+ * Kirjoitetaan CSS (suositus: omat puhtaat CSS-luokat Tailwindin sijaan, jotta tiedostokoko pysyy pienenä ilman build-prosessia. Jos käytät Tailwindia, aja se build-prosessin läpi ja kopioi output <style>-tagiin).
+ * Konvertoidaan kuvat Base64-muotoon  työkalulla ja sijoitetaan koodiin.
+Vaihe 2: Optimointi ja Tietoturva
+ * Minifiointi: HTML, CSS ja JS koodi ajetaan "minifier"-työkalun läpi ennen julkaisua tiedostokoon pienentämiseksi.
+ * HTTPS: Varmistetaan, että hosting.etcnet.fi pakottaa HTTPS-yhteyden.
+ * Linkkien tarkistus: Testataan WHMCS-linkin toimivuus ja uudelleenohjaukset.
+Vaihe 3: Testaus
+ * Offline-testi: Lataa sivu, katkaise verkkoyhteys, päivitä sivu (cache) tai avaa tiedosto suoraan levyltä.
+ * Laitetestaus: Testaus mobiililaitteilla (iOS/Android) sekä eri selaimilla (Firefox, Chrome).
+Mitä mieltä olet?
+Haluaisitko, että luon sinulle tämän pohjalta valmiin HTML-koodirungon, jossa on perusrakenteet (Base64 placeholder-logolla ja valmiilla CSS-tyyleillä) paikoillaan?
