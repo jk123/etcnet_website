@@ -2,6 +2,8 @@ Etcetera  edustaa valikoituja IT-infraratkaisuja, joiden tarkoitus on, mottomme 
 
 Etcetera on webhotelli sivustoillesi, pienille ja suurille sekä virusvapaa ja turvattu sähköposti. Kauttamme voit myös rekisteröidä verkkotunnuksesi.
 
+Firman konesali sijaitsee Ruotsin kristineholmissa.
+
 Etcetera  solmii ylläpitosopimuksen IT järjestelmästäsi, jolloin toimimme kuten sinun oma IT-osastosi.
 
 Etecetera Networks  Työskentelee kestävän kehityksen  eduksi.  mm. annamme  osan tuottoistamme Itämeren pelastamiseen. Pisara meressäkö? kenties, mutta tarpeeksi monta pisaraa kaivertaa jopa kiven. Itämeri on paikallinen sisämeremme ja meidän täytyy tehdä jotain sen  hyväksi. Lisää näistä asioista voit lukea blogeistamme.
