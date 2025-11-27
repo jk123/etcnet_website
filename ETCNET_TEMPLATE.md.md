@@ -1,9 +1,9 @@
 ---
 created: 2025-11-27T04:47:09+02:00
-modified: 2025-11-27T04:55:39+02:00
+modified: 2025-11-27T04:56:46+02:00
 ---
 
-# ETCNET_TEMPLATE.md
+# ETCNET_TEMPLATE
 
 Verkkosivuston Konseptisuunnitelma
 
