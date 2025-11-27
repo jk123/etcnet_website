@@ -50,5 +50,3 @@ Tämä määrittely toimii ohjeena sivuston varsinaiselle toteutukselle. Etenemi
 *   Testaus:
     *   Varmistetaan toimivuus ilman verkkoyhteyttä (offline-valmius staattisille osille).
     *   Testataan mobiiliskaalautuvuus.
-*   Julkaisu:
-    *   Tiedoston siirto tuotantopalvelimelle. Koska kyseessä on yksi tiedosto, käyttöönotto on erittäin yksinkertainen.
