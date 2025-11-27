@@ -31,7 +31,6 @@ Yläpalkki (Sticky/Fixed), joka sisältää logon ja linkit:
  * CTA-painike: "Kirjaudu sisään" (Client Area)
 3.2 Sisältöalueet
  * Hero-osio: Pääotsikko, lyhyt esittelyteksti ja ensisijainen CTA.
- * Palvelut (#palvelut): Korttimainen asettelu (Grid/Flexbox), jossa esitellään hosting-ratkaisut.
  * Integraatiot: Linkitys WHMCS-järjestelmään.
 3.3 Ulkoiset linkit (WHMCS)
 Asiakashallintaan ohjaava liikenne toteutetaan selkeästi erottuvilla painikkeilla.
