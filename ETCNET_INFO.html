@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etcetera Networks – Verkkosivuston Konseptisuunnitelma</title>
+    <style>
+        /*
+            Yleinen tyylittely (Mobile-First & Dark Mode)
+            Värimaailma: Inspiroitu Saaristosta (syvänsininen/musta, kalliiden harmaat, kirkas aksentti)
+        */
+        :root {
+            --color-bg: #1a1a2e; /* Syvänsininen/Musta tausta */
+            --color-text: #e0e0e0; /* Vaalea teksti */
+            --color-accent: #00bcd4; /* Kirkas aksentti (vrt. aurinkopaneeli/kirkas vesi) */
+            --color-primary: #2c3e50; /* Tumman harmaa osioille */
+            --color-border: #4a5a6a;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navigaatio */
+        header {
+            background-color: var(--color-primary);
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: var(--color-text);
+            text-decoration: none;
+            padding: 8px 15px;
+            margin: 0 5px;
+            display: inline-block;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s;
+        }
+
+        nav a:hover, nav a.cta {
+            color: var(--color-accent);
+            border-bottom: 2px solid var(--color-accent);
+        }
+
+        nav a.cta {
+            font-weight: bold;
+        }
+
+        /* Osioiden tyyli */
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        h1 {
+            color: var(--color-accent);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            border-bottom: 2px solid var(--color-accent);
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: var(--color-accent);
+            margin-top: 20px;
+        }
+
+        /* Taulukot */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            overflow-x: auto; /* Mobiiliystävällisyys */
+            display: block;
+        }
+
+        th, td {
+            border: 1px solid var(--color-border);
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: var(--color-primary);
+            color: var(--color-text);
+        }
+
+        /* Listat */
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--color-primary);
+            color: var(--color-text);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: var(--color-accent);
+            text-decoration: none;
+        }
+
+        /* Mobiilioptimointi (Pienet näytöt) */
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+                padding: 10px 0;
+            }
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Etcetera Networks</h1>
+            <p><strong>"For a better digital everyday."</strong></p>
+            <nav>
+                <a href="#palvelut">Palvelut</a>
+                <a href="#vastuullisuus">Vastuullisuus</a>
+                <a href="#yritys">Meistä</a>
+                <a href="https://hosting.etcnet.fi/whmcs/index.php?rp=/login" class="cta">Kirjaudu sisään</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section id="yritys">
+            <h2>Yritystiedot ja Konseptin Yleiskuvaus</h2>
+            <p>Tämä sivu toimii Etcetera Networks Ab:n verkkosivuston teknisenä ja sisällöllisenä määrittelynä. Missiomme on tehdä digitaalisesta arjesta siedettävämpää.</p>
+
+            <table>
+                <tr><th>Määrittely</th><th>Kuvaus</th></tr>
+                <tr><td>Yritys</td><td>Etcetera Networks Ab</td></tr>
+                <tr><td>Y-tunnus</td><td>2974769-3</td></tr>
+                <tr><td>Toimiala</td><td>Muu laitteisto- ja tietotekninen palvelutoiminta (62090)</td></tr>
+                <tr><td>Kotipaikka</td><td>Parainen (Toimipaikka: Nauvo)</td></tr>
+                <tr><td>Postiosoite</td><td>Elbacken 1, 21660 Nauvo</td></tr>
+                <tr><td>Puhelin</td><td>075 326 7910</td></tr>
+                <tr><td>Sähköposti</td><td>info@etcnet.fi</td></tr>
+                <tr><td>Verkkosivusto</td><td><a href="https://www.etcnet.fi" target="_blank">www.etcnet.fi</a></td></tr>
+            </table>
+        </section>
+
+        <section id="vastuullisuus">
+            <h2>Arvolupaus: Inhimillinen, Paikallinen ja Ekologinen Vaihtoehto</h2>
+            <p><strong>Arvolupauksen ydin:</strong> Etcetera Networks on inhimillinen, paikallinen ja ekologinen vaihtoehto suurille pilvijäteille.</p>
+
+            <h3>Keskeiset erottuvuustekijät</h3>
+            <ul>
+                <li>
+                    <strong>Ekologisuus & Vastuullisuus</strong>
+                    <ul>
+                        <li><strong>Energia:</strong> Palvelinhalli toimii 100 % aurinkovoimalla (seinät ja katto paneeleita).</li>
+                        <li><strong>Varmennus:</strong> Hoidetaan omalla akkupankilla ja vesivoimalla.</li>
+                        <li><strong>Itämeren suojelu:</strong> Osa tuotoista lahjoitetaan Itämeren pelastamiseen.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Inhimillisyys ja Paikallisuus</strong>
+                    <ul>
+                        <li>Ei kasvotonta tukea, vaan aitoja ihmisiä. "Oma IT-osastosi" Nauvosta käsin.</li>
+                        <li>Data pysyy Suomessa, omassa hallinnassa olevassa laitesalissa.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Luotettavuus ja Tietoturva</strong>
+                    <ul>
+                        <li>Täysi GDPR-vaatimustenmukaisuus.</li>
+                        <li>Säännöllinen varmuuskopiointi fyysisesti eriytettyyn sijaintiin.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="palvelut">
+            <h2>Palvelurakenne ja Tuotteet</h2>
+            <p>Sivusto esittelee ydinpalvelut selkeästi ja ohjaa tilausprosessiin.</p>
+
+            <h3>A. Hosting & Cloud (Integraatio WHMCS:ään)</h3>
+            <table>
+                <tr><th>Palvelu</th><th>Kuvaus</th><th>Alusta</th><th>Tilauslinkki</th></tr>
+                <tr><td>Webhotelli</td><td>Skaalautuvat ja luotettavat ratkaisut verkkosivuille.</td><td>Plesk</td><td><a href="https://hosting.etcnet.fi/whmcs/index.php" target="_blank">Tilaa</a></td></tr>
+                <tr><td>Virtuaalipalvelimet (VPS)</td><td>Kaksi vaihtoehtoa vaativaan ja kevyeen käyttöön.</td><td>Proxmox/KVM/LXC</td><td><a href="https://hosting.etcnet.fi/whmcs/index.php" target="_blank">Tilaa</a></td></tr>
+                <tr><td>– KVM</td><td>Täysiverinen virtualisointi, täysi kontrolli.</td><td>KVM</td><td>-</td></tr>
+                <tr><td>– LXC</td><td>Kevyt, konttipohjainen ratkaisu nopeaan käyttöönottoon.</td><td>LXC</td><td>-</td></tr>
+                <tr><td>Domainit</td><td>Rekisteröinti ja helppo hallinta.</td><td>-</td><td><a href="https://hosting.etcnet.fi/whmcs/index.php" target="_blank">Tilaa</a></td></tr>
+            </table>
+
+            <h3>B. Asiantuntijapalvelut (MSP)</h3>
+            <table>
+                <tr><th>Palvelu</th><th>Kuvaus</th></tr>
+                <tr><td>MSP (Managed Service Provider)</td><td>Kokonaisvaltaiset ylläpitosopimukset – toimistoautomaatio ja IT-ulkoistus.</td></tr>
+                <tr><td>Sähköposti</td><td>Tietoturvallinen, GDPR-yhteensopiva ja roskapostisuojattu.</td></tr>
+                <tr><td>Infraratkaisut</td><td>Laitehankinnat, verkkoratkaisut ja konsultointi.</td></tr>
+            </table>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p><strong>&copy; Etcetera Networks Ab</strong></p>
+            <p>Y-tunnus: 2974769-3 | Osoite: Elbacken 1, 21660 Nauvo</p>
+            <p>Yhteydenotot: <a href="mailto:info@etcnet.fi">info@etcnet.fi</a> | 075 326 7910</p>
+            <p><a href="#">Tietosuojaseloste</a> | <a href="#">Palveluehdot</a></p>
+        </div>
+    </footer>
+
+</body>
+</html> 
