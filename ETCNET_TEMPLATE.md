@@ -2,29 +2,11 @@
 
 Verkkosivuston Konseptisuunnitelma
 
-Tämä dokumentti toimii teknisenä ja sisällöllisenä määrittelynä verkkosivuston kehitykselle.
+Tämä dokumentti toimii teknisenä määrittelynä verkkosivuston rakentamiseen.
 
 Toteutus: Single File HTML5 (Kaikki yhdessä tiedostossa)
 
-1 Palvelurakenne ja Tuotteet
-
-Sivusto esittelee ydinpalvelut selkeästi ja ohjaa tilausprosessiin.
-
-A. Hosting & Cloud (Integraatio WHMCS:ään)
-
-Palvelu: Webhotelli, Kuvaus: Skaalautuvat ja luotettavat ratkaisut verkkosivuille., Alusta: Plesk, Tilauslinkki (Esim.): [Linkki tilausjärjestelmään]
-Palvelu: Virtuaalipalvelimet (VPS), Kuvaus: Kaksi vaihtoehtoa vaativaan ja kevyeen käyttöön., Alusta: Proxmox/KVM/LXC, Tilauslinkki (Esim.): [Linkki tilausjärjestelmään]
-Palvelu: -- KVM, Kuvaus: Täysiverinen virtualisointi, täysi kontrolli., Alusta: KVM, Tilauslinkki (Esim.): -
-Palvelu: -- LXC, Kuvaus: Kevyt, konttipohjainen ratkaisu nopeaan käyttöönottoon., Alusta: LXC, Tilauslinkki (Esim.): -
-Palvelu: Domainit, Kuvaus: Rekisteröinti ja helppo hallinta., Alusta: -, Tilauslinkki (Esim.): [Linkki tilausjärjestelmään]
-
-B. Asiantuntijapalvelut (MSP)
-
-Palvelu: MSP (Managed Service Provider), Kuvaus: Kokonaisvaltaiset ylläpitosopimukset – toimistoautomaatio ja IT-ulkoistus.
-Palvelu: Sähköposti, Kuvaus: Tietoturvallinen, GDPR-yhteensopiva ja roskapostisuojattu.
-Palvelu: Infraratkaisut, Kuvaus: Laitehankinnat, verkkoratkaisut ja konsultointi.
-
-2 Sivuston Rakenne ja Toiminnallisuus
+1 Sivuston Rakenne ja Toiminnallisuus
 
 Tekninen Arkkitehtuuri: Single File (Yksi tiedosto)
 Sivusto rakennetaan täysin itsenäiseksi kokonaisuudeksi yhteen tiedostoon. Tämä minimoi HTTP-pyynnöt ja varmistaa sivuston toimivuuden ilman monimutkaista palvelinpuolen riippuvuutta staattisessa jakelussa.
@@ -45,8 +27,8 @@ Sivuston navigaatio ohjaa pääosiin yhdellä sivulla.
 
 Ulkoiset linkit (WHMCS-integraatio)
 
-Kohde: Sisäänkirjautuminen (Client Area), Linkki: <https://hosting.etcnet.fi/whmcs/index.php?rp=/login>
-Kohde: Tuotehinnasto / Tilaus, Linkki: [Tilausjärjestelmän linkki]
+Kohde: Sisäänkirjautuminen (Client Area), Linkki: https://hosting.etcnet.fi/whmcs/index.php?rp=/login
+
 
 Footer (Alatunniste)
 Sivuston alatunnisteessa tulee näkyä lakisääteiset tiedot selkeästi:
