@@ -31,7 +31,7 @@ Kohde: Sisäänkirjautuminen (Client Area), Linkki: https://hosting.etcnet.fi/wh
 Footer (Alatunniste)
 Sivuston alatunnisteessa tulee näkyä lakisääteiset tiedot selkeästi:
 
-*   Linkit: Tietosuojaseloste, Palveluehdot, ei blogia.
+*   Linkit: Tietosuojaseloste, Palveluehdot.
 
 3 Seuraavat vaiheet ja Toteutus
 
