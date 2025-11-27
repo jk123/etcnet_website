@@ -45,13 +45,13 @@ Sivuston navigaatio ohjaa pääosiin yhdellä sivulla.
 
 Ulkoiset linkit (WHMCS-integraatio)
 
-Kohde: Sisäänkirjautuminen (Client Area), Linkki: [Sisäänkirjautumislinkki]
+Kohde: Sisäänkirjautuminen (Client Area), Linkki: <https://hosting.etcnet.fi/whmcs/index.php?rp=/login>
 Kohde: Tuotehinnasto / Tilaus, Linkki: [Tilausjärjestelmän linkki]
 
 Footer (Alatunniste)
 Sivuston alatunnisteessa tulee näkyä lakisääteiset tiedot selkeästi:
 
-*   Linkit: Tietosuojaseloste, Palveluehdot
+*   Linkit: Tietosuojaseloste, Palveluehdot, ei blogia.
 
 3 Seuraavat vaiheet ja Toteutus
 
