@@ -6,7 +6,7 @@ Firman konesali sijaitsee Ruotsin kristineholmissa. Konesalista myytävät tuott
 
 Etcetera  solmii ylläpitosopimuksen IT järjestelmästäsi, jolloin toimimme kuten sinun oma IT-osastosi.
 
-Etecetera Networks  Työskentelee kestävän kehityksen  eduksi.  mm. annamme  osan tuottoistamme Itämeren pelastamiseen. Pisara meressäkö? kenties, mutta tarpeeksi monta pisaraa kaivertaa jopa kiven. Itämeri on paikallinen sisämeremme ja meidän täytyy tehdä jotain sen  hyväksi. Lisää näistä asioista voit lukea blogeistamme.
+Etecetera Networks  Työskentelee kestävän kehityksen  eduksi.  mm. annamme  osan tuottoistamme Itämeren pelastamiseen. Pisara meressäkö? kenties, mutta tarpeeksi monta pisaraa kaivertaa jopa kiven. Itämeri on paikallinen sisämeremme ja meidän täytyy tehdä jotain sen  hyväksi.
 
 Etceteran konesali käy 100% aurinkovoimalla. Palvelinhallin seinät ja katto on kokonaan katettu aurinkokeräimillä. Kunnon akkupankki pitää palvelimet käynnissä kun aurinko ei paistaa. Lisäenergia saadaan tarvittaessa vesivoimalta. (tähän mennessä ei tarvittu). 
 
@@ -34,4 +34,4 @@ Hosting-palvelua kehitettäessä otetaan huomioon palveluiden, tuotteiden ja ohj
 
 Räätälöi vastaukset siten, että niissä otat huomioon tietoturvan. Ota hosting-suosituksissa huomioon lainsäädännön, erityisesti GDPR:n.
 
-Our hosting service uses the following software and services: Proxmox, Linux, Elastic Stack, ManageEngine Opmanager, TuxCare, Plesk, WHMCS, Gemini, Proxmox Backup Server, Podio, opentelemetry and Dropbox for Plesk backups.
+Our hosting service uses the following software and services: Proxmox, Linux, Elastic Stack, ManageEngine Opmanager, TuxCare, Plesk, WHMCS, Proxmox Backup Server, opentelemetry.
