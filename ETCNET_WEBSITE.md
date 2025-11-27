@@ -1,47 +1,43 @@
----
-type: Journal
----
+created	modified	type
+2025-11-26 23:00:56 +0200
+2025-11-26 23:04:17 +0200
+Journal
+📄 Verkkosivuston Konseptisuunnitelma: Etcetera Networks
 
-# PROJEKTIKUVAUS: Etcetera Networks -verkkosivusto
-
-**Rooli:** Toimi kokeneena Full Stack -web-kehittäjänä, UX-suunnittelijana ja sisällöntuottajana. Tehtäväsi on suunnitella rakenne ja tuottaa sisältö verkkosivustolle alla olevien tietojen perusteella.
-
-## 1. Yrityksen profiili ja Brändi
-* **Yritys:** Etcetera (Etcetera Networks Ab).
-* **Sijainti:** Turunmaan saaristo (Nauvo).
-* **Toimiala:** IT-palvelut, Webhotelli, MSP (Managed Service Provider).
-* **Motto:** "Tehdä digitaalisesta jokapäivästämme sietävämmäksi."
-* **Arvolupaus:** Paikallinen, inhimillinen ja ekologinen IT-kumppani. Emme ole vain kasvoton pilvipalvelu, vaan "oma IT-osastosi".
-
-## 2. Palvelut ja Tuotteet
-Sivuston tulee esitellä seuraavat ydinpalvelut selkeästi:
-* **Webhotelli:** Skaalautuvat ratkaisut pienille ja suurille sivustoille.
-* **Sähköposti:** Virusvapaa, turvattu ja GDPR-yhteensopiva sähköpostipalvelu.
-* **Verkkotunnukset:** Domain-rekisteröinti ja hallinta.
-* **IT-Ulkoistus (MSP):** Ylläpitosopimukset, joissa Etcetera toimii asiakkaan omana IT-osastona vastaten järjestelmien toimivuudesta.
-* **Infraratkaisut:** Valikoidut, laadukkaat IT-infraratkaisut.
-
-## 3. Uniikki myyntivaltti (USP): Ekologisuus
-Tämä on brändin tärkein erottuvuustekijä. Sivuston tulee korostaa seuraavia asioita:
-* **100% Aurinkovoima:** Palvelinhallin seinät ja katto on katettu kokonaan aurinkokeräimillä.
-* **Energian varmistus:** Tehokas akkupankki pitää palvelimet käynnissä kun aurinko ei paista. Varalla on vesivoima (jota ei toistaiseksi ole tarvittu).
-* **Itämeren suojelu:** Osa tuotoista lahjoitetaan Itämeren pelastamiseen.
-    * *Lainaus sivustolle:* "Pisara meressäkö? Kenties, mutta tarpeeksi monta pisaraa kaivertaa jopa kiven. Itämeri on paikallinen sisämeremme ja meidän täytyy tehdä jotain sen hyväksi."
-
-## 4. Tekninen ympäristö ja Tietoturva
-Palvelut tuotetaan yrityksen omassa hallinnassa olevassa ympäristössä. Sivustolla tulee korostaa seuraavia asiakaslupauksia teknisten yksityiskohtien sijaan:
-* **Moderni alusta:** Palvelut pyörivät nykyaikaisessa ja tehokkaassa ympäristössä.
-* **Tietoturva ja GDPR:** Järjestelmät on suunniteltu noudattamaan korkeita tietoturvavaatimuksia ja tietosuoja-asetuksia.
-* **Varmuuskopiointi:** Tiedot varmuuskopioidaan säännöllisesti ja turvallisesti erilliseen sijaintiin.
-
-## 5. Kohderyhmä ja Äänensävy
-* **Kohderyhmä:** Paikalliset yritykset, ympäristötietoiset toimijat ja luotettavaa, kotimaista hostingia etsivät tahot.
-* **Äänensävy:** Asiallinen mutta maanläheinen, "saaristolainen", luotettava, läpinäkyvä.
-
-## 6. Tehtäväsi
-Luo tämän tiedon pohjalta:
-1.  **Sivustokartta (Site map)**.
-2.  **Etusivun sisältötekstit** (Copywriting), jotka hyödyntävät annettua mottoa ja arvoja.
-3.  **Tekninen toteutusehdotus** (HTML/CSS-runko), joka on kevyt, nopea ja responsiivinen.
-4.  **Lisää sivustoon whmcs palvelusivuston toiminnallisuus. Lisää whmcs login keinot sekä hosting tuotteet: plesk, KVM ja lxc sivulle. Linkitä tuotteet whmcs:ään. Login linkki: https://hosting.etcnet.fi/whmcs/index.php?rp=/login whmcs url https://hosting.etcnet.fi/whmcs/index.php
-5.  **Toteuta täydet nettisivut.
+Yleiskuvaus Etcetera Networks Ab on Turunmaan saaristossa (Nauvo) toimiva IT-palvelutalo, joka tarjoaa inhimillistä, paikallista ja ekologista vaihtoehtoa suurille pilvijäteille. Sivusto toimii myyntikanavana hosting-palveluille sekä käyntikorttina MSP-palveluille (IT-ulkoistus).
+Yritys: Etcetera Networks Ab
+Sijainti: Nauvo (Turunmaan saaristo)
+Slogan (Kaikissa kieliversioissa): "For a better digital everyday."
+Missio: Tehdä digitaalisesta arjesta sietävämpää.
+Kohderyhmä ja Arvolupaus (USP) Kohderyhmänä ovat paikalliset yritykset sekä ympäristötietoiset toimijat, jotka etsivät luotettavaa kotimaista kumppania. Keskeiset erottuvuustekijät:
+Ekologisuus: Palvelinhalli toimii 100 % aurinkovoimalla (seinät ja katto paneeleita). Varmennus hoidetaan omalla akkupankilla ja varalla olevalla vesivoimalla.
+Itämeren suojelu: Osa tuotoista lahjoitetaan Itämeren pelastamiseen. "Pisara meressäkö? Kenties, mutta tarpeeksi monta pisaraa kaivertaa jopa kiven."
+Inhimillisyys: "Oma IT-osastosi" – ei kasvotonta tukea, vaan aitoja ihmisiä.
+Palvelurakenne ja Tuotteet Sivusto esittelee seuraavat ydinpalvelut ja ohjaa niiden tilaukseen: Hosting & Cloud (Integraatio WHMCS:ään)
+Webhotelli: Skaalautuvat ratkaisut (Alusta: Plesk).
+Virtuaalipalvelimet (VPS):
+KVM: Täysverinen virtualisointi vaativaan käyttöön.
+LXC: Kevyt konttipohjainen ratkaisu.
+Domainit: Rekisteröinti ja hallinta. Asiantuntijapalvelut
+MSP (Managed Service Provider): Kokonaisvaltaiset ylläpitosopimukset.
+Sähköposti: Tietoturvallinen, GDPR-yhteensopiva ja roskapostisuojattu.
+Infraratkaisut: Laitehankinnat ja verkkoratkaisut.
+Sivuston Rakenne ja Toiminnallisuus Sivusto toteutetaan modernina, nopeana Single Page (One-Page) -kokonaisuutena. Navigaatio
+Palvelut
+Vastuullisuus (Ekologisuus)
+Yritys
+Ota yhteyttä
+[CTA] Kirjaudu sisään (Client Area) Linkkirakenne (WHMCS)
+Sisäänkirjautuminen: https://hosting.etcnet.fi/whmcs/index.php?rp=/login
+Tuotehinnasto / Tilaus: https://hosting.etcnet.fi/whmcs/index.php
+Visuaalinen Ilme ja Äänensävy
+Tyyli: Moderni, selkeä, "Dark mode" tai saaristosta inspiroitunut värimaailma (meri, kallio, aurinkopaneelit).
+UX: Mobile-first suunnittelu. Kevyt HTML/CSS-runko ilman raskaita latausaikoja.
+Copywriting:
+Äänensävy on asiallinen mutta maanläheinen ("saaristolainen").
+Teksti on suomeksi, mutta slogan pidetään englanniksi.
+Vältetään liikaa teknistä jargonia, korostetaan hyötyjä ja turvallisuutta.
+Tietoturva ja Luotettavuus Sivustolla korostetaan seuraavia asiakaslupauksia:
+GDPR: Täysi vaatimustenmukaisuus.
+Sijainti: Data pysyy Suomessa, omassa hallinnassa olevassa laitesalissa.
+Varmuuskopiointi: Säännöllinen backup fyysisesti eriytettyyn sijaintiin.
