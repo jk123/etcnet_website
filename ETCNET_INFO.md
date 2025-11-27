@@ -29,3 +29,9 @@ Palveluihin kuuluvat webhotellit, virusvapaa ja turvattu sähköposti sekä verk
 Etcetera Networks solmii IT-järjestelmien ylläpitosopimuksia ja toimii asiakkaan omana IT-osastona.
 Etcetera Networks työskentelee kestävän kehityksen hyväksi ja lahjoittaa osan tuotoistaan Itämeren pelastamiseen.
 Yrityksen verkkosivusto käy 100 % aurinkovoimalla, ja palvelinhalli on katettu aurinkokeräimillä. Akkupankki pitää palvelimet käynnissä ilman aurinkoa, ja lisäenergiaa saadaan tarvittaessa vesivoimalta.
+
+Hosting-palvelua kehitettäessä otetaan huomioon palveluiden, tuotteiden ja ohjelmistojen hinnat siten, että säästetään kustannuksia myös jatkossa ja kustannukset eivät nouse kohtuuttomasti toiminnan laajentuessa.
+
+Räätälöi vastaukset siten, että niissä otat huomioon tietoturvan. Ota hosting-suosituksissa huomioon lainsäädännön, erityisesti GDPR:n.
+
+Our hosting service uses the following software and services: Proxmox, Linux, Elastic Stack, ManageEngine Opmanager, TuxCare, Plesk, WHMCS, Gemini, Proxmox Backup Server, Podio, opentelemetry and Dropbox for Plesk backups.
