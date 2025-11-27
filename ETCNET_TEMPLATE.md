@@ -2,7 +2,7 @@
 
 Verkkosivuston Tekninen Määrittely: Single File -toteutus
 Versio: 1.0 | Päiväys: 27.11.2025
-1. Johdanto ja Tavoite
+1. Johdanto ja tavoite
 Tämä dokumentti määrittelee tekniset vaatimukset ja toteutustavan hosting-palveluita tarjoavan verkkosivuston rakentamiseksi.
 Toteutusmalli: Single File HTML5 (SPA-tyyppinen staattinen toteutus).
 Tavoite: Maksimoida suorituskyky, siirrettävyys ja yksinkertaisuus sisällyttämällä kaikki resurssit yhteen tiedostoon.
