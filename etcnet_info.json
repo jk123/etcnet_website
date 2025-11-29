@@ -1,0 +1,42 @@
+{
+  "yritys": {
+    "virallinen_nimi": "Etcetera Networks Ab",
+    "y_tunnus": "2974769-3",
+    "yhtiomuoto": "Osakeyhtiö",
+    "perustamisvuosi": 2019,
+    "kotipaikka": "Parainen"
+  },
+  "yhteystiedot": {
+    "kayntiosoite": {
+      "katuosoite": "Elbacken 1 A 2",
+      "postinumero": "21660",
+      "postitoimipaikka": "Nauvo",
+      "maa": "Suomi"
+    },
+    "postiosoite": {
+      "katuosoite": "Elbacken 1",
+      "postinumero": "21660",
+      "postitoimipaikka": "Nauvo",
+      "maa": "Suomi"
+    },
+    "puhelin": "+358 75 326 7910",
+    "sahkoposti": "info@etcnet.fi",
+    "verkkosivusto": "https://www.etcnet.fi"
+  },
+  "toimiala": {
+    "koodi": "62090",
+    "nimi": "Muu laitteisto- ja tietotekninen palvelutoiminta",
+    "kuvaus": "IT-konsultointi, IT-infrastruktuuripalvelut, verkkohotellit, tietoturvallinen sähköposti."
+  },
+  "taloustiedot": {
+    "tilikausi": "2024",
+    "liikevaihto_eur": 23000,
+    "liikevoitto_eur": -3000,
+    "henkilostomaara": 1,
+    "omavaraisuusaste": "33%"
+  },
+  "muut_tiedot": {
+    "toimintakuvaus": "Yritys tarjoaa IT-palveluita (MSP), verkkohotelleja ja verkkotunnuksia. Yritys korostaa ympäristövastuullisuutta; sen palvelininfrastruktuuri toimii aurinkovoimalla.",
+    "kielet": ["Ruotsi", "Suomi", "Englanti"]
+  }
+}
