@@ -113,7 +113,7 @@ def main():
     
     # Valitaan malli
     try:
-        model = genai.GenerativeModel('gemini-1.5-pro-latest')
+        model = genai.GenerativeModel('gemini-2.5-flash')
     except:
         model = genai.GenerativeModel('gemini-1.5-flash')
 
