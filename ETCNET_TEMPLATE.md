@@ -65,4 +65,4 @@ Vaihe 3: Testaus
  * Offline-testi: Lataa sivu, katkaise verkkoyhteys, päivitä sivu (cache) tai avaa tiedosto suoraan levyltä.
  * Laitetestaus: Testaus mobiililaitteilla (iOS/Android) sekä eri selaimilla (Firefox, Chrome).
 Mitä mieltä olet?
-Haluaisitko, että luon sinulle tämän pohjalta valmiin HTML-koodirungon, jossa on perusrakenteet (Base64 placeholder-logolla ja valmiilla CSS-tyyleillä) paikoillaan?
+* Luodaan sivulle tämän pohjalta valmis HTML-koodirunko, jossa on perusrakenteet (Base64 placeholder-logolla ja valmiilla CSS-tyyleillä) paikoillaan.
