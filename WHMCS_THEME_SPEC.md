@@ -4,7 +4,7 @@ Tämä dokumentti määrittelee visuaalisen ilmeen Etcetera Networks (Etcnet) as
 
 ## 1. Yleiset Asetukset (Base Settings)
 
-*   **Pohjakehys:** Bootstrap 4 tai 5 (riippuen WHMCS-versiosta).
+*   **Pohjakehys:** Bootstrap 5.
 *   **Muotokieli:** Pyöristetyt kulmat (Rounded), pehmeät varjot, minimalistinen, luonnonläheinen.
 *   **CSS Framework Referenssi:** Tailwind CSS (Stone / Amber -paletti).
 
